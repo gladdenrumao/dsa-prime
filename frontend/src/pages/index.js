@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <div className="full-page-sidebar">
-      <h1 className="sidebar-title">DSA Prime</h1>
+      <h1 className="sidebar-title">WOW DSA</h1>
       <div className="sidebar-topics">
         {topics.map((topic) => (
           <button
