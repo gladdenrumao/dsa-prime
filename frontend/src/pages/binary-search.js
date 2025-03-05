@@ -43,9 +43,9 @@ arr = [2, 3, 4, 10, 18]
 target = 10 
 print(binary_search(arr, target))  # Output: 3 (Index of 10)`}
         />
-        <p>✅ **Efficient with O(log n) time complexity.**</p>
-        <p>✅ **No extra space required (O(1) space complexity).**</p>
-        <p>❌ **May require sorting beforehand (O(n log n) if sorting is needed).**</p>
+        <p>✅ Efficient with O(log n) time complexity.</p>
+        <p>✅ No extra space required (O(1) space complexity).</p>
+        <p>❌ May require sorting beforehand (O(n log n) if sorting is needed).</p>
       </LearningSection>
 
       <LearningSection title="4️⃣ Recursive Binary Search">
@@ -65,8 +65,8 @@ arr = [2, 3, 4, 10, 18]
 target = 10 
 print(recursive_binary_search(arr, 0, len(arr) - 1, target))  # Output: 3 (Index of 10)`}
         />
-        <p>✅ **Uses recursion for a more intuitive approach.**</p>
-        <p>❌ **Uses extra space due to recursive function calls (O(log n) space complexity).**</p>
+        <p>✅ Uses recursion for a more intuitive approach.</p>
+        <p>❌ Uses extra space due to recursive function calls (O(log n) space complexity).</p>
       </LearningSection>
 
       <LearningSection title="5️⃣ Time & Space Complexity">
@@ -96,17 +96,17 @@ print(recursive_binary_search(arr, 0, len(arr) - 1, target))  # Output: 3 (Index
             </tr>
           </tbody>
         </table>
-        <p>✅ **Much faster than Linear Search (O(n)).**</p>
-        <p>✅ **Efficient for large datasets.**</p>
+        <p>✅ Much faster than Linear Search (O(n)).</p>
+        <p>✅ Efficient for large datasets.</p>
       </LearningSection>
 
       <LearningSection title="6️⃣ Key Properties">
         <ul>
-          <li>✅ **Only works on sorted arrays.**</li>
-          <li>✅ **Divide and conquer approach.**</li>
-          <li>✅ **Faster than Linear Search (O(log n) vs. O(n)).**</li>
-          <li>✅ **Iterative version uses O(1) space.**</li>
-          <li>❌ **Recursive version uses O(log n) space due to call stack.**</li>
+          <li>✅ Only works on sorted arrays.</li>
+          <li>✅ Divide and conquer approach.</li>
+          <li>✅ Faster than Linear Search (O(log n) vs. O(n)).</li>
+          <li>✅ Iterative version uses O(1) space.</li>
+          <li>❌ Recursive version uses O(log n) space due to call stack.</li>
         </ul>
       </LearningSection>
 
