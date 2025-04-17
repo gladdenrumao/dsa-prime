@@ -1,11 +1,16 @@
 export const topics = [
-    { id: "binary-search", name: "Binary Search" },
-    { id: "bubble-sort", name: "Bubble Sort" },
-    { id: "selection-sort", name: "Selection Sort" },
-    { id: "insertion-sort", name: "Insertion Sort" },
-    { id: "recursion", name: "Recursion" }, 
-    { id: "time-space-complexity", name: "Time and Space Complexity" },
-    { id: "prefix-sum", name: "Prefix Sum" },
-    { id: "two-pointers", name: "Two Pointers" },
-  ];
-  
+  { id: "linked-list", name: "Linked List" }, 
+  { id: "general-maths", name: "General Maths" }, 
+  { id: "stack", name: "Stack" }, 
+  { id: "queue", name: "Queue" }, 
+  { id: "merge-sort", name: "Merge Sort" },  
+  { id: "oop", name: "Object-Oriented Programming" },
+  { id: "binary-search", name: "Binary Search" },
+  { id: "bubble-sort", name: "Bubble Sort" },
+  { id: "selection-sort", name: "Selection Sort" },
+  { id: "insertion-sort", name: "Insertion Sort" },
+  { id: "time-space-complexity", name: "Time and Space Complexity" },
+  { id: "prefix-sum", name: "Prefix Sum" },
+  { id: "two-pointers", name: "Two Pointers" },
+  { id: "recursion", name: "Recursion" },
+];
