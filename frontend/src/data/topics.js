@@ -1,4 +1,5 @@
 export const topics = [
+  { id: "trees", name: "Trees" }, 
   { id: "linked-list", name: "Linked List" }, 
   { id: "general-maths", name: "General Maths" }, 
   { id: "stack", name: "Stack" }, 
